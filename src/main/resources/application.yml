@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      server: localhost
+      port: 27017
+      databaseName: Test
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
